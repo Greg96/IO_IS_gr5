@@ -9,7 +9,10 @@ namespace Tasks{
 		~Task();
 		int getID();
 		string getName();
-
+		int getUser_id();
+		void setID(int);
+		void setName(string);
+		void setUser_id(int);
 	private:
 		int id, user_id;
 		string name, description;

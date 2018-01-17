@@ -20,3 +20,15 @@ int Task::getID(){
 string Task::getName(){
 	return name;
 }
+int Task::getUser_id(){
+	return user_id;
+}
+void Task::setID(int n){
+	this -> id = n;
+}
+void Task::setUser_id(int n){
+	this -> user_id = n;
+}
+void Task::setName(string n){
+	this -> name = n;
+}
